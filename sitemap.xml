@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <!-- Homepage -->
+    <url>
+        <loc>https://www.frischholz-gmbh.de/</loc>
+        <lastmod>2026-09-13</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <!-- Hero Section -->
+    <url>
+        <loc>https://www.frischholz-gmbh.de/#home</loc>
+        <lastmod>2026-09-13</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.95</priority>
+    </url>
+    
+    <!-- Immobilien Section -->
+    <url>
+        <loc>https://www.frischholz-gmbh.de/#immobilien</loc>
+        <lastmod>2026-09-13</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.9</priority>
+    </url>
+    
+    <!-- Leistungen Section -->
+    <url>
+        <loc>https://www.frischholz-gmbh.de/#leistungen</loc>
+        <lastmod>2026-09-13</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.85</priority>
+    </url>
+    
+    <!-- Über uns Section -->
+    <url>
+        <loc>https://www.frischholz-gmbh.de/#uber-uns</loc>
+        <lastmod>2026-09-13</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <!-- Standorte Section -->
+    <url>
+        <loc>https://www.frischholz-gmbh.de/#standorte</loc>
+        <lastmod>2026-09-13</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <!-- Kontakt Section -->
+    <url>
+        <loc>https://www.frischholz-gmbh.de/#kontakt</loc>
+        <lastmod>2026-09-13</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.85</priority>
+    </url>
+    
+    <!-- Impressum (Placeholder) -->
+    <url>
+        <loc>https://www.frischholz-gmbh.de/#impressum</loc>
+        <lastmod>2026-09-13</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <!-- Datenschutz (Placeholder) -->
+    <url>
+        <loc>https://www.frischholz-gmbh.de/#datenschutz-info</loc>
+        <lastmod>2026-09-13</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <!-- AGB (Placeholder) -->
+    <url>
+        <loc>https://www.frischholz-gmbh.de/#agb</loc>
+        <lastmod>2026-09-13</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.5</priority>
+    </url>
+</urlset>
