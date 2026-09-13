@@ -1,0 +1,465 @@
+/* ====================================
+   RESPONSIVE DESIGN - TABLET
+   ==================================== */
+
+@media (max-width: 1024px) {
+    .container {
+        padding: 0 var(--spacing-lg);
+    }
+
+    h1 {
+        font-size: var(--font-size-4xl);
+    }
+
+    h2 {
+        font-size: var(--font-size-3xl);
+    }
+
+    h3 {
+        font-size: var(--font-size-2xl);
+    }
+
+    .hero-title {
+        font-size: var(--font-size-4xl);
+    }
+
+    section {
+        padding: var(--spacing-3xl) 0;
+    }
+
+    .about-grid,
+    .kontakt-grid {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-2xl);
+    }
+
+    .leistungen-grid,
+    .usps-grid,
+    .standorte-grid,
+    .testimonials-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .immobilien-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .hero {
+        min-height: 500px;
+        padding: var(--spacing-3xl) 0;
+    }
+
+    .hero-buttons {
+        gap: var(--spacing-md);
+    }
+
+    .about-highlights {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* ====================================
+   RESPONSIVE DESIGN - MOBILE
+   ==================================== */
+
+@media (max-width: 768px) {
+    :root {
+        --font-size-5xl: 40px;
+        --font-size-4xl: 32px;
+        --font-size-3xl: 24px;
+        --font-size-2xl: 20px;
+        --spacing-4xl: 48px;
+        --spacing-3xl: 32px;
+        --spacing-2xl: 24px;
+    }
+
+    .container {
+        padding: 0 var(--spacing-md);
+    }
+
+    /* Header */
+    .header-content {
+        padding: var(--spacing-md) 0;
+        height: auto;
+    }
+
+    .nav-desktop {
+        display: none;
+    }
+
+    .menu-toggle {
+        display: flex;
+    }
+
+    .header .btn-primary {
+        display: none;
+    }
+
+    /* Hero */
+    .hero {
+        min-height: 400px;
+        padding: var(--spacing-2xl) 0;
+    }
+
+    .hero-title {
+        font-size: var(--font-size-3xl);
+        margin-bottom: var(--spacing-md);
+    }
+
+    .hero-subtitle {
+        font-size: var(--font-size-base);
+        margin-bottom: var(--spacing-lg);
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+        gap: var(--spacing-md);
+    }
+
+    .hero-buttons .btn {
+        width: 100%;
+    }
+
+    /* Section Padding */
+    section {
+        padding: var(--spacing-2xl) 0;
+    }
+
+    .section-header {
+        margin-bottom: var(--spacing-2xl);
+    }
+
+    /* Grids */
+    .trust-grid,
+    .leistungen-grid,
+    .immobilien-grid,
+    .usps-grid,
+    .standorte-grid,
+    .testimonials-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .trust-card,
+    .leistung-card,
+    .usp-card,
+    .standort-card,
+    .testimonial-card {
+        padding: var(--spacing-lg);
+    }
+
+    /* About Section */
+    .about-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .about-highlights {
+        grid-template-columns: 1fr;
+    }
+
+    /* Kontakt Section */
+    .kontakt-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .kontakt-info {
+        order: 2;
+    }
+
+    .kontakt-form {
+        order: 1;
+    }
+
+    /* Immobilien Card */
+    .immobilien-header {
+        flex-direction: column;
+        gap: var(--spacing-sm);
+    }
+
+    .price {
+        margin-left: 0;
+    }
+
+    /* Footer */
+    .footer-grid {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-lg);
+        margin-bottom: var(--spacing-lg);
+        padding-bottom: var(--spacing-lg);
+    }
+
+    .footer-links {
+        gap: var(--spacing-md);
+    }
+
+    /* Forms */
+    .form-group {
+        margin-bottom: var(--spacing-md);
+    }
+
+    input, textarea, select {
+        padding: var(--spacing-md);
+        font-size: 16px;
+    }
+
+    /* Buttons */
+    .btn-large {
+        padding: var(--spacing-md) var(--spacing-lg);
+        font-size: var(--font-size-base);
+    }
+}
+
+/* ====================================
+   RESPONSIVE DESIGN - SMALL MOBILE
+   ==================================== */
+
+@media (max-width: 480px) {
+    :root {
+        --font-size-5xl: 32px;
+        --font-size-4xl: 24px;
+        --font-size-3xl: 20px;
+        --font-size-2xl: 18px;
+        --spacing-4xl: 32px;
+        --spacing-3xl: 24px;
+        --spacing-2xl: 16px;
+        --spacing-xl: 16px;
+    }
+
+    .container {
+        padding: 0 var(--spacing-md);
+    }
+
+    h1 {
+        font-size: var(--font-size-3xl);
+    }
+
+    h2 {
+        font-size: var(--font-size-2xl);
+    }
+
+    h3 {
+        font-size: var(--font-size-xl);
+    }
+
+    .logo h1 {
+        font-size: var(--font-size-lg);
+    }
+
+    /* Hero */
+    .hero {
+        min-height: 350px;
+        padding: var(--spacing-xl) 0;
+    }
+
+    .hero-title {
+        font-size: var(--font-size-2xl);
+        margin-bottom: var(--spacing-md);
+    }
+
+    .hero-subtitle {
+        font-size: var(--font-size-sm);
+        margin-bottom: var(--spacing-lg);
+    }
+
+    /* Section */
+    section {
+        padding: var(--spacing-xl) 0;
+    }
+
+    .section-header {
+        margin-bottom: var(--spacing-lg);
+    }
+
+    .section-header h2 {
+        font-size: var(--font-size-2xl);
+    }
+
+    .section-header p {
+        font-size: var(--font-size-base);
+    }
+
+    /* Cards */
+    .trust-card,
+    .leistung-card,
+    .usp-card,
+    .standort-card,
+    .testimonial-card,
+    .immobilien-card {
+        padding: var(--spacing-md);
+    }
+
+    .leistung-icon {
+        width: 50px;
+        height: 50px;
+    }
+
+    .trust-icon {
+        width: 50px;
+        height: 50px;
+    }
+
+    /* Immobilien Card */
+    .immobilien-image {
+        height: 180px;
+    }
+
+    .immobilien-details {
+        flex-direction: column;
+        gap: var(--spacing-md);
+    }
+
+    /* Contact Form */
+    .kontakt-form {
+        padding: var(--spacing-lg);
+    }
+
+    .form-group {
+        margin-bottom: var(--spacing-md);
+    }
+
+    /* Footer */
+    .footer-grid {
+        gap: var(--spacing-md);
+    }
+
+    .footer-section h4 {
+        font-size: var(--font-size-base);
+    }
+
+    .footer-links {
+        flex-direction: column;
+        gap: var(--spacing-md);
+    }
+
+    /* Buttons */
+    .btn {
+        padding: var(--spacing-md) var(--spacing-lg);
+        font-size: var(--font-size-sm);
+    }
+
+    .btn-primary,
+    .btn-secondary {
+        width: 100%;
+    }
+
+    /* FAQ */
+    .faq-question {
+        padding: var(--spacing-md);
+        font-size: var(--font-size-base);
+    }
+
+    /* CTA Section */
+    .cta-content h2 {
+        font-size: var(--font-size-2xl);
+    }
+
+    .cta-content p {
+        font-size: var(--font-size-base);
+    }
+
+    /* Standort Note */
+    .standort-note {
+        display: block;
+        text-align: center;
+    }
+}
+
+/* ====================================
+   LANDSCAPE MODE - SMALL DEVICES
+   ==================================== */
+
+@media (max-height: 600px) and (orientation: landscape) {
+    .hero {
+        min-height: 300px;
+        padding: var(--spacing-xl) 0;
+    }
+
+    .hero-title {
+        font-size: var(--font-size-3xl);
+    }
+
+    .hero-subtitle {
+        font-size: var(--font-size-sm);
+    }
+
+    section {
+        padding: var(--spacing-lg) 0;
+    }
+}
+
+/* ====================================
+   PRINT STYLES
+   ==================================== */
+
+@media print {
+    .header,
+    .nav-mobile,
+    .hero-buttons,
+    .kontakt-form,
+    .btn,
+    .footer {
+        display: none;
+    }
+
+    body {
+        background: white;
+    }
+
+    section {
+        page-break-inside: avoid;
+    }
+
+    a {
+        text-decoration: underline;
+    }
+}
+
+/* ====================================
+   RETINA DISPLAYS
+   ==================================== */
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    /* Fine-tune for high DPI displays */
+    * {
+        -webkit-font-smoothing: subpixel-antialiased;
+    }
+}
+
+/* ====================================
+   DARK MODE (optional - future enhancement)
+   ==================================== */
+
+@media (prefers-color-scheme: dark) {
+    /* This is optional - can be enabled in future */
+    /* Leave for now - focus on light theme */
+}
+
+/* ====================================
+   HIGH CONTRAST MODE
+   ==================================== */
+
+@media (prefers-contrast: more) {
+    .btn {
+        border-width: 3px;
+    }
+
+    .nav-link {
+        text-decoration: underline;
+    }
+
+    input, textarea, select {
+        border-width: 2px;
+    }
+}
+
+/* ====================================
+   FOCUS MODE (Reduced Motion)
+   ==================================== */
+
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
