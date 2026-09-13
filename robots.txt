@@ -1,0 +1,19 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+Disallow: /.git/
+
+# Google
+User-agent: Googlebot
+Allow: /
+
+# Bing
+User-agent: Bingbot
+Allow: /
+
+# Crawl-delay in seconds
+Crawl-delay: 1
+
+# Sitemap location
+Sitemap: https://www.frischholz-gmbh.de/sitemap.xml
